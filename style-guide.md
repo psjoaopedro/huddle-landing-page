@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Purple 700: hsl(257, 40%, 49%)
+- Purple 700: hsla(257, 40%, 49%, 1.00)
 - Magenta 400: hsl(300, 69%, 71%)
 
 ## Typography

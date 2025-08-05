@@ -1,0 +1,64 @@
+/* Estilização do Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*define a família da fonte dada no style.guide */
+    background: url('../images/bg-desktop.svg') no-repeat;
+    /*imagem de fundo sem repetir*/
+    background-size: cover;
+    /*cobre toda o fundo sem quebrar a imagem*/
+    background-color: hsla(257, 40%, 49%, 1.00);
+    /*define a cor de fundo do nosso layout*/
+    color: #fff;
+    /*define a cor das letras*/
+    min-height: 100vh;
+    /*define a altura mínima exibida nas telas de qualquer dispositivo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container .header img {
+    width: 215px;
+    /*adequando a imagem ao tamanho da do layout*/
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.container .content .content-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .content .content-right {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container .content .content-right .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.6;
+
+}
+
+.container .content .content-right .info {
+    font-size: 1rem;
+    line-height: 1.7;
+}

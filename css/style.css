@@ -1,17 +1,11 @@
 /* Estilização do Body */
 body {
     font-family: 'Open Sans', sans-serif;
-    /*define a família da fonte dada no style.guide */
     background: url('../images/bg-desktop.svg') no-repeat;
-    /*imagem de fundo sem repetir*/
     background-size: cover;
-    /*cobre toda o fundo sem quebrar a imagem*/
     background-color: hsla(257, 40%, 49%, 1.00);
-    /*define a cor de fundo do nosso layout*/
     color: #fff;
-    /*define a cor das letras*/
     min-height: 100vh;
-    /*define a altura mínima exibida nas telas de qualquer dispositivo*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +22,6 @@ body {
 
 .container .header img {
     width: 215px;
-    /*adequando a imagem ao tamanho da do layout*/
 }
 
 .container .content {
@@ -101,5 +94,6 @@ body {
 
 .social a:hover {
   background-color: hsl(300, 69%, 71%);
+  border-color: hsl(257, 40%, 49%);;
   color: white;
 }

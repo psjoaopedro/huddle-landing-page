@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background: url('../images/bg-desktop.svg') no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: hsla(257, 40%, 49%, 1.00);
     color: #fff;
     min-height: 100vh;
@@ -73,26 +73,25 @@ body {
 
 
 .footer {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .social a {
-  color: white;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 0.5rem;
-  margin-left: 1rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  transition: background 0.3s ease;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    transition: background 0.3s ease;
 }
 
 .social a:hover {
-  background-color: hsl(300, 69%, 71%);
-  border-color: hsl(257, 40%, 49%);;
-  color: white;
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
 }

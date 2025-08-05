@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ body {
 
 .container .content .right-content .title {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.5rem;
     line-height: 1.6;
 
@@ -66,10 +66,10 @@ body {
 .container .content .right-content .btn {
     background-color: white;
     color: hsl(257, 40%, 49%);
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
     border-radius: 2rem;
-    font-weight: 700;
-    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     width: fit-content;
     transition: background 0.3s ease-in-out;
 }
@@ -79,3 +79,27 @@ body {
     color: #ffffff;
 }
 
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social a {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  transition: background 0.3s ease;
+}
+
+.social a:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}

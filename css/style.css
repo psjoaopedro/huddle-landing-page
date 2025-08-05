@@ -38,19 +38,19 @@ body {
     gap: 3rem;
 }
 
-.container .content .content-left img {
+.container .content .left-content img {
     max-width: 100%;
     height: auto;
 }
 
-.container .content .content-right {
+.container .content .right-content {
     max-width: 500px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.container .content .content-right .title {
+.container .content .right-content .title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
@@ -58,7 +58,24 @@ body {
 
 }
 
-.container .content .content-right .info {
+.container .content .right-content .info {
     font-size: 1rem;
     line-height: 1.7;
 }
+
+.container .content .right-content .btn {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    width: fit-content;
+    transition: background 0.3s ease-in-out;
+}
+
+.container .content .right-content .btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
